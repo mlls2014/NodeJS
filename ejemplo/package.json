@@ -1,0 +1,28 @@
+{
+  "name": "ejemplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -d dist",
+    "start": "nodemon --exec npx babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "halson": "^3.0.0",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "progress": "^2.0.3"
+  }
+}
